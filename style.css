@@ -1,4 +1,98 @@
-h1 {
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f7fe;
+}
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
+}
+
+main {
+  padding: 30px 0 30px 0;
+  border-bottom: 1px solid #f9f7fe;
+}
+
+footer {
   text-align: center;
-  color: blueviolet;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 14px;
+  padding-top: 16px;
+}
+
+footer a {
+  color: #885df1;
+}
+.page-content {
+  justify-content: right;
+  padding: 30px;
+  margin: 60px auto;
+  background-color: #ffffff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 12px;
+  max-width: 600px;
+}
+
+.search-input {
+  background-color: #f9f7fe;
+  font-size: 16px;
+  border: none;
+  padding: 20px;
+  width: 75%;
+  border-radius: 6px;
+}
+.search-btn {
+  margin-left: 6px;
+  font-size: 16px;
+  background-color: #885df1;
+  color: white;
+  border: none;
+  padding: 20px;
+  line-height: 1;
+  border-radius: 8px;
+  transition: all 200ms ease;
+}
+.search-btn:hover {
+  cursor: pointer;
+  background: #5e41a7;
+}
+.current-city {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 38px;
+  font-weight: 900;
+  margin: 0;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-details {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.current-details strong {
+  color: #f65282;
+}
+
+.current-temperature-value {
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 600;
+}
+
+.current-temperature-icon {
+  font-size: 40px;
+  position: relative;
+  top: -12px;
+  padding-right: 8px;
+}
+
+.current-temperature-unit {
+  font-size: 28px;
+  position: relative;
+  top: -36px;
 }
